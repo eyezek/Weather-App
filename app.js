@@ -30,7 +30,7 @@ defaultURL =
 function backgroundChange() {
   if (conditions.innerHTML === "Clouds") {
     document.body.style.backgroundImage =
-      "url('/Photos/billy-huynh-v9bnfMCyKbg-unsplash.jpg')";
+      "url('billy-huynh-v9bnfMCyKbg-unsplash.jpg')";
     document.body.style.color = "black";
     card.style.border = "2px solid black";
     searchSection.style.borderBottom = "2px solid black";
@@ -43,7 +43,7 @@ function backgroundChange() {
     windDeg.style.borderBottom = "2px solid black";
   } else if (conditions.innerHTML == "Clear") {
     document.body.style.backgroundImage =
-      "url('/Photos/grooveland-designs-zjoydJb17mE-unsplash.jpg')";
+      "url('grooveland-designs-zjoydJb17mE-unsplash.jpg')";
     document.body.style.color = "black";
     card.style.border = "2px solid black";
     searchSection.style.borderBottom = "2px solid black";
@@ -56,7 +56,7 @@ function backgroundChange() {
     windDeg.style.borderBottom = "2px solid black";
   } else if (conditions.innerHTML == "Rain") {
     document.body.style.backgroundImage =
-      "url('/Photos/noah-silliman-i2J9jnvaAbU-unsplash.jpg')";
+      "url('noah-silliman-i2J9jnvaAbU-unsplash.jpg')";
     document.body.style.color = "white";
     card.style.border = "2px solid white";
     searchSection.style.borderBottom = "2px solid white";
@@ -69,7 +69,7 @@ function backgroundChange() {
     windDeg.style.borderBottom = "2px solid white";
   } else if (conditions.innerHTML == "Snow") {
     document.body.style.backgroundImage =
-      "url('/Photos/dillon-kydd-7o7m1xCEiY8-unsplash.jpg')";
+      "url('dillon-kydd-7o7m1xCEiY8-unsplash.jpg')";
     document.body.style.color = "black";
     card.style.border = "2px solid black";
     searchSection.style.borderBottom = "2px solid black";
@@ -97,7 +97,7 @@ function backgroundReset() {
   windDeg.style.borderBottom = "2px solid white";
 }
 
-// Load Bristol's weather on refresh / open
+// Load Bristol Virginia's weather on refresh / open
 
 fetch(
   "https://api.openweathermap.org/data/2.5/weather?q=Bristol,+Virginia&appid=22812178cf9346e1f08ea35b630f1eba&units=imperial",
