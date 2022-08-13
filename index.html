@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Weather App :)</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>My Weather App :)</h1>
+    <div id="card">
+      <div id="searchsection">
+        <h2 id="searchforacity">Search for a city</h2>
+        <input type="text" id="searchfield" />
+        <button id="submitsearch">Submit</button>
+      </div>
+      <div id="weather">
+        <h2 id="cityname"></h2>
+        <div id="details">
+          <div id="tempsection">
+            <h2>Temperature</h2>
+            <h2 id="temperature"></h2>
+            <h2>Feels Like</h2>
+            <h2 id="feelslike"></h2>
+            <h2>Min</h2>
+            <h2 id="min"></h2>
+            <h2>Max</h2>
+            <h2 id="max"></h2>
+          </div>
+          <div id="conditionssection">
+            <h2>Conditions</h2>
+            <h2 id="conditions"></h2>
+            <h2>Wind Speed</h2>
+            <h2 id="windspeed"></h2>
+            <h2>Wind Deg</h2>
+            <h2 id="winddeg"></h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <h2>
+        Coded by Eyezek Tucker, API by
+        <a href="https://openweathermap.org/">OpenWeather</a>
+      </h2>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
