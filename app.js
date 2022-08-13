@@ -57,16 +57,16 @@ function backgroundChange() {
   } else if (conditions.innerHTML == "Rain") {
     document.body.style.backgroundImage =
       "url('noah-silliman-i2J9jnvaAbU-unsplash.jpg')";
-    document.body.style.color = "white";
-    card.style.border = "2px solid white";
-    searchSection.style.borderBottom = "2px solid white";
-    temperature.style.borderBottom = "2px solid white";
-    feelsLike.style.borderBottom = "2px solid white";
-    minTemp.style.borderBottom = "2px solid white";
-    maxTemp.style.borderBottom = "2px solid white";
-    conditions.style.borderBottom = "2px solid white";
-    windSpeed.style.borderBottom = "2px solid white";
-    windDeg.style.borderBottom = "2px solid white";
+    document.body.style.color = "black";
+    card.style.border = "2px solid black";
+    searchSection.style.borderBottom = "2px solid black";
+    temperature.style.borderBottom = "2px solid black";
+    feelsLike.style.borderBottom = "2px solid black";
+    minTemp.style.borderBottom = "2px solid black";
+    maxTemp.style.borderBottom = "2px solid black";
+    conditions.style.borderBottom = "2px solid black";
+    windSpeed.style.borderBottom = "2px solid black";
+    windDeg.style.borderBottom = "2px solid black";
   } else if (conditions.innerHTML == "Snow") {
     document.body.style.backgroundImage =
       "url('dillon-kydd-7o7m1xCEiY8-unsplash.jpg')";
